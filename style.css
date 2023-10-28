@@ -161,6 +161,19 @@ ul li i {
   margin-bottom: 50px;
 }
 
+.content-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    margin-top:-150em;
+    /* margin-left: 320px; */
+}
+
 @media (max-width: 1600px){
     .content-container {
         width: 100%;
@@ -235,7 +248,7 @@ ul li i {
 
 .review-section {
     position: fixed;
-    top: 150px;
+    top: 80px;
     left: 240px;
     width: 100%;
     z-index: 100;
@@ -301,7 +314,7 @@ ul li i {
 
 
 @media (max-width: 1000px) {
-    .content-container {
+    /* .content-container {
         width: 100%;
         max-width: 960px;
         margin: 0 auto;
@@ -311,6 +324,7 @@ ul li i {
         justify-content: space-between;
         margin-top: -210px;
         margin-left: 320px;
-    }
+    } */
+
 
 }
