@@ -1,0 +1,298 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1px;
+    margin-bottom: 1px;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.search-bar {
+    width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+input {
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+  
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.side-icon {
+    display: flex;
+    align-items: center;
+}
+
+.side-icon i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.fa-sun{
+    color: darkorange;
+}
+.fa-bell{
+    color: rgb(137, 135, 135);
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.header-divider {
+    margin-top: 0px;
+    border: 0;
+    border-top: 1px solid #a6a6a6;
+}
+
+.collapse-button {
+    position: fixed;
+    bottom: 8px;
+    left: 3px;
+
+}
+
+.collapse-button i {
+    font-size: 20px;
+}
+
+
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 1px;
+    transition: width 0.3s ease-in-out;
+    overflow: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 25px;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+ul li i {
+    font-size: 15px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.sidebar hr {
+    margin: 5px 0;
+}
+
+.section {
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+}
+
+.has-submenu {
+    position: relative;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.layout-option {
+    margin-top: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sidebar-content {
+    display: block;
+}
+.collapsed .sidebar-content {
+    display: none;
+}
+
+.collapse-para{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-content {
+  display: flex;
+  position: relative;
+  margin-top: 0;
+  margin-left: 220px;
+}
+
+
+.content-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1100px;
+    /* margin-top: 0; */
+}
+
+
+.side-heading {
+    font-size: 16px; 
+    padding: 0;
+
+    margin-bottom: 20px;
+
+}
+
+  
+.main-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+  
+.main-search .search-input {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.main-search .search-input input {
+    width: 100%;
+    height: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.main-search .search-input i {
+    margin-right: 5px;
+    color: #7b7d80;
+    cursor: pointer;
+}
+  
+.all-product {
+    background-color: #7b7d80;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.pro{
+    margin-left: 10px;
+}
+
+/* review section  */
+
+.review-section {
+    position: fixed;
+    top: 150px;
+    left: 240px;
+    width: 100%;
+    z-index: 100;
+    
+  }
+
+.horizontal-line {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #a6a6a6;
+}
+
+.review-content {
+    font-size: 13px;
+    text-align: center;
+}
+
+.review-heading {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.review-item {
+    flex: 1;
+    text-align: center;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px;
+    padding: 10px 0;
+}
+
+.item-img{
+    width: 25px;
+    height: 25px;
+    justify-items: center;
+    margin-right:10px ;
+}
+
+.approved{
+    background-color: rgb(139, 216, 146) ;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.pending{
+    background-color: rgb(222, 134, 134);
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+

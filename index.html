@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Admin Dashboard Template Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+            <h3>Phoenix</h3>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <button type="submit" class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="side-icon">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-bell"></i>
+            <img src="profile.png" alt="profile" class="profile-img">
+        </div>
+    </header>
+    <hr class="header-divider">
+    
+    <main class="dashboard">
+ 
+        <div class="sidebar">
+            <div class="sidebar-content">
+            <ul>
+                <li>
+                    <i class="fas fa-chart-pie" style="color: #7b7d80;"></i>
+                    Home
+                </li>
+                <li class="section">Apps</li>
+                <li>
+                    <i class="fas fa-shopping-cart" style="color: #7b7d80;"></i>
+                    E-commerce
+                </li>
+                <li>
+                    <i class="fas fa-phone" style="color: #7b7d80;"></i>
+                    CRM
+                </li>
+                <li>
+                    <i class="fas fa-tasks" style="color: #7b7d80;"></i>
+                    Project management
+                </li>
+                <li>
+                    <i class="fas fa-comment" style="color: #7b7d80;"></i>
+                    Chat
+                </li>
+                <li>
+                    <i class="fas fa-envelope" style="color: #7b7d80;"></i>
+                    Email
+                </li>
+                <li>
+                    <i class="fas fa-calendar" style="color: #7b7d80;"></i>
+                    Events
+                </li>
+                <li>
+                    <i class="fas fa-thumbs-up" style="color: #7b7d80;"></i>
+                    Social
+                </li>
+                <li>
+                    <i class="far fa-calendar" style="color: #7b7d80;"></i>
+                    Calendar
+                </li>
+                <li class="section">Pages</li>
+                <li>
+                    <i class="fas fa-compass" style="color: #7b7d80;"></i>
+                    Starter
+                </li>
+                <li>
+                    <i class="far fa-question-circle" style="color: #7b7d80;"></i>
+                    Faq
+                </li>
+                <li>
+                    <i class="fas fa-globe" style="color: #7b7d80;"></i>
+                    Landing
+                </li>
+                <li>
+                    <i class="fas fa-tag" style="color: #7b7d80;"></i>
+                    Pricing
+                </li>
+                <li>
+                    <i class="fas fa-bell" style="color: #7b7d80;"></i>
+                    Notifications
+                </li>
+                <li>
+                    <i class="fas fa-users" style="color: #7b7d80;"></i>
+                    Members
+                </li>
+                <li>
+                    <i class="fas fa-clock" style="color: #7b7d80;"></i>
+                    Timeline
+                </li>
+                <li>
+                    <i class="fas fa-lock" style="color: #7b7d80;"></i>
+                    Authentication
+                </li>
+                <li>
+                    <i class="fas fa-exclamation-triangle" style="color: #7b7d80;"></i>
+                    Errors
+                </li>
+                <li class="has-submenu">
+                    <i class="fas fa-box" style="color: #7b7d80;"></i>
+                    Layouts
+                    <ul class="submenu">
+                        <li class="layout-option" data-layout="vertical-sidenav">Vertical Sidenav</li>
+                        <li class="layout-option" data-layout="dark-mode">Dark Mode</li>
+                        <li class="layout-option" data-layout="sidenav-collapse">Sidenav Collapse</li>
+                    </ul>
+                </li>
+            </ul>
+            <br>
+            </div>           
+        </div>
+        <div>
+        <button class="collapse-button" id="collapse-button">
+            <i class="fas fa-chevron-left" style="color: #7b7d80;"></i>
+        </button> 
+        </div> 
+        
+        <div class="main-content">
+            <div class="content-container">
+                <div class="side-heading">
+                    <h3>Latest reviews</h3>
+                    <p>Payment received across all channels</p>
+                </div>
+                <div class="main-search">
+                    <div class="search-input">
+                        <input type="text" placeholder="Search..." class="search-input" />
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <button type="button" class="all-product">All products</button>
+                    <button class="pro">...</button>
+                </div>                    
+            </div>
+
+            <div class="review-section">
+                <hr class="horizontal-line">
+                <div class="review-content">
+                    <div class="review-heading">
+                        <div class="review-item">Product</div>
+                        <div class="review-item">Customer Name</div>
+                        <div class="review-item">Reviews</div>
+                        <div class="review-item">Customer Rating</div>
+                        <div class="review-item">Status</div>
+                        <div class="review-item">Time</div>
+                    </div>
+                    <hr class="horizontal-line">
+                    <div class="review-details">
+                        <div class="review-item">
+                            <img src="phone.png" alt="phone" class="item-img">
+                            Product A
+                        </div>
+                        <div class="review-item"><img src="profile.png" alt="profile" class="item-img">Ashley Garett</div>
+                        <div class="review-item">Great product!</div>
+                        <div class="review-item">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </div>
+                        <div class="review-item"><button class="approved">Approved <i class="fas fa-check"></i></button></div>
+                        <div class="review-item">2 hours ago</div>
+                    </div>
+                    <hr class="horizontal-line">
+                    <div class="review-details">
+                        <div class="review-item">
+                            <img src="watch.png" alt="watch" class="item-img">
+                            Product B
+                        </div>
+                        <div class="review-item"><img src="profile.png" alt="profile" class="item-img">Alice Smith</div>
+                        <div class="review-item">Excellent service.</div>
+                        <div class="review-item">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </div>
+                        <div class="review-item"><button class="pending">pending <i class="fas fa-clock"></i></button></div>
+                        <div class="review-item">3 hours ago</div>
+                    </div>
+                    <hr class="horizontal-line">
+                    <div class="review-details">
+                        <div class="review-item">
+                            <img src="tablet.png" alt="tablet" class="item-img">
+                            Product C
+                        </div>
+                        <div class="review-item"><img src="profile.png" alt="profile" class="item-img">Richard Dawkins</div>
+                        <div class="review-item">Excellent service.</div>
+                        <div class="review-item">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </div>
+                        <div class="review-item"><button class="pending">pending <i class="fas fa-clock"></i></button></div>
+                        <div class="review-item">3 hours ago</div>
+                    </div>
+                    <hr class="horizontal-line">
+                    <div class="review-details">
+                        <div class="review-item">
+                            <img src="phone.png" alt="phone" class="item-img">
+                            Product A
+                        </div>
+                        <div class="review-item">
+                            <img src="profile.png" alt="profile" class="item-img">John Doe</div>
+                        <div class="review-item">Great product!</div>
+                        <div class="review-item">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </div>
+                        <div class="review-item"><button class="approved">Approved <i class="fas fa-check"></i></button></div>
+                        <div class="review-item">2 hours ago</div>
+                    </div>
+                    <hr class="horizontal-line">
+                    <div class="review-details">
+                        <div class="review-item">
+                            <img src="watch.png" alt="watch" class="item-img">
+                            Product B
+                        </div>
+                        <div class="review-item"><img src="profile.png" alt="profile" class="item-img">Alice Smith</div>
+                        <div class="review-item">Excellent service.</div>
+                        <div class="review-item">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </div>
+                        <div class="review-item"><button class="approved">Approved <i class="fas fa-check"></i></button></div>
+                        <div class="review-item">3 hours ago</div>
+                    </div>
+
+                </div> 
+
+            </div>
+        </div>      
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
